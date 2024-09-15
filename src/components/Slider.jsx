@@ -9,7 +9,7 @@ import {
 
 const Slider = () => {
   return (
-    <div className="w-48 h-screen shadow-lg ">
+    <div className="w-64 h-screen shadow-lg ">
       <div className=" bg-white shadow-lg left-7 p-4 h-screen align-baseline">
         <div className="slider fixed  top-16  bg-white flex-col flex-1  font-semibold  p-auto gap-10">
           <div class="">
