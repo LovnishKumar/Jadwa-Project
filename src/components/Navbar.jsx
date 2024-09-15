@@ -113,7 +113,7 @@ const Navbar = () => {
                   </Menu>
                 </div>
 
-                <div class="w-52 ">
+                
                   <div class="relative flex left-40 z-10 align-middle">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -128,12 +128,12 @@ const Navbar = () => {
                       />
                     </svg>
                     <input
-                      class="w-full bg-transparent placeholder:text-slate-400 text-slate-700 text-sm border-none pl-10 pr-3 py-2 transition duration-300 ease focus:outline-none "
+                      class="w-32 z-50 bg-transparent placeholder:text-slate-400 text-slate-700 text-sm border-none pl-10 pr-3 py-2 transition duration-300 ease focus:outline-none "
                       placeholder="Search...."
                     />
                   </div>
-                </div>
-                <div className="profile ms-20 z-10 justify-end flex">
+                
+                <div className="profile ms-48 z-10 justify-end flex">
                   <div className="profile_pic">
                     <img src={Profile_pic} alt="profile_pic" />
                   </div>
